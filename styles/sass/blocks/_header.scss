@@ -1,0 +1,37 @@
+.header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    padding: 1rem 0;
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+
+    .logo{
+        margin-right: 600px;
+    }
+
+    &__list{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item{
+        font-size: 16px;
+        font-weight: 400;
+        padding-right: 25px;
+        color: #191919;
+
+        &:hover{
+           color: skyblue;
+        }
+    }
+}
